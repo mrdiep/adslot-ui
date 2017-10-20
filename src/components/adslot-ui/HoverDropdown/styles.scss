@@ -1,0 +1,21 @@
+@import '~styles/variable';
+
+$dropdown-width: 160px;
+
+.hover-dropdown {
+  display: inline-block;
+}
+
+.hover-dropdown-popover {
+  .popover-title {
+    font-weight: $font-weight-bold;
+  }
+
+  .popover-content {
+    width: $dropdown-width;
+
+    .list-group {
+      margin: 0;
+    }
+  }
+}

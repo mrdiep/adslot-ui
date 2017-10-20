@@ -20,6 +20,7 @@ import TreePickerNav from 'adslot-ui/TreePicker/Nav';
 import TreePickerNode from 'adslot-ui/TreePicker/Node';
 import TreePickerSimplePure from 'adslot-ui/TreePicker';
 import UserListPicker from 'adslot-ui/UserListPicker';
+import HoverDropdown from 'adslot-ui/HoverDropdown';
 import fastStatelessWrapper from 'adslot-ui/fastStatelessWrapper';
 
 export {
@@ -46,4 +47,5 @@ export {
   TreePickerNode,
   TreePickerSimplePure,
   UserListPicker,
+  HoverDropdown,
 };
